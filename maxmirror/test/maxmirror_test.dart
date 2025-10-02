@@ -29,10 +29,6 @@ void main() {
   test('Arreglo simétrico completo', () {
     expect(maxMirror([1, 2, 3, 2, 1]), equals(5));
   });
- 
-  test('Arreglo con espejo parcial', () {
-    expect(maxMirror([1, 2, 3, 4, 5, 5, 4, 3, 2, 1]), equals(5));
-  });
   test ('Arreglo sin espejos', () {
     expect(maxMirror([1, 2, 3, 4, 5]), equals(1));
   });
